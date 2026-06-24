@@ -128,8 +128,7 @@
       text-align: center; transition: all 0.2s; cursor: default;
     }
     .skill-chip:hover { border-color: var(--accent); transform: translateY(-2px); }
-    .skill-chip .sk-icon { font-size: 1.5rem; margin-bottom: 0.4rem; }
-    .skill-chip .sk-name { font-size: 0.8rem; color: var(--muted); }
+    .skill-chip .sk-name { font-size: 0.85rem; color: var(--muted); font-weight: 500; }
 
     /* PROJECTS */
     .projects-grid {
@@ -143,7 +142,6 @@
     }
     .project-card:hover { border-color: var(--accent); transform: translateY(-3px); box-shadow: 0 8px 30px rgba(124,106,247,0.12); }
     .project-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.8rem; }
-    .project-icon { font-size: 1.6rem; }
     .project-links { display: flex; gap: 0.5rem; }
     .project-link {
       color: var(--muted); text-decoration: none; font-size: 0.78rem;
@@ -170,7 +168,6 @@
       text-decoration: none; transition: all 0.2s; display: block;
     }
     .contact-card:hover { border-color: var(--accent); transform: translateY(-2px); }
-    .contact-icon { font-size: 1.4rem; margin-bottom: 0.5rem; }
     .contact-label { color: var(--accent); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 0.2rem; }
     .contact-value { color: var(--muted); font-size: 0.82rem; word-break: break-all; }
 
@@ -215,7 +212,7 @@
 <!-- HERO -->
 <div style="padding: 0 2.5rem;">
 <section id="hero">
-  <span class="hero-tag" data-en="🎓 Engineering Student · ENSET Mohammedia" data-fr="🎓 Étudiant Ingénieur · ENSET Mohammedia">🎓 Engineering Student · ENSET Mohammedia</span>
+  <span class="hero-tag" data-en="Engineering Student · ENSET Mohammedia" data-fr="Étudiant Ingénieur · ENSET Mohammedia">Engineering Student · ENSET Mohammedia</span>
   <h1>
     <span data-en="Hi, I'm" data-fr="Bonjour, je suis">Hi, I'm</span><br/>
     <span>Nassim BAKKAS</span>
@@ -274,18 +271,18 @@
   <h2 data-en="Tech Stack" data-fr="Technologies">Tech Stack</h2>
   <p class="section-desc" data-en="Languages, frameworks and tools I work with." data-fr="Langages, frameworks et outils que j'utilise.">Languages, frameworks and tools I work with.</p>
   <div class="skills-grid">
-    <div class="skill-chip"><div class="sk-icon">🐍</div><div class="sk-name">Python</div></div>
-    <div class="skill-chip"><div class="sk-icon">☕</div><div class="sk-name">Java</div></div>
-    <div class="skill-chip"><div class="sk-icon">⚙️</div><div class="sk-name">C</div></div>
-    <div class="skill-chip"><div class="sk-icon">🌐</div><div class="sk-name">HTML/CSS</div></div>
-    <div class="skill-chip"><div class="sk-icon">🟨</div><div class="sk-name">JavaScript</div></div>
-    <div class="skill-chip"><div class="sk-icon">🐘</div><div class="sk-name">PHP</div></div>
-    <div class="skill-chip"><div class="sk-icon">🔴</div><div class="sk-name">Laravel</div></div>
-    <div class="skill-chip"><div class="sk-icon">🗄️</div><div class="sk-name">MySQL / SQL</div></div>
-    <div class="skill-chip"><div class="sk-icon">🐚</div><div class="sk-name">Bash</div></div>
-    <div class="skill-chip"><div class="sk-icon">🐙</div><div class="sk-name">Git / GitHub</div></div>
-    <div class="skill-chip"><div class="sk-icon">🐧</div><div class="sk-name">Linux</div></div>
-    <div class="skill-chip"><div class="sk-icon">🔒</div><div class="sk-name">Cybersecurity</div></div>
+    <div class="skill-chip"><div class="sk-name">Python</div></div>
+    <div class="skill-chip"><div class="sk-name">Java</div></div>
+    <div class="skill-chip"><div class="sk-name">C</div></div>
+    <div class="skill-chip"><div class="sk-name">HTML / CSS</div></div>
+    <div class="skill-chip"><div class="sk-name">JavaScript</div></div>
+    <div class="skill-chip"><div class="sk-name">PHP</div></div>
+    <div class="skill-chip"><div class="sk-name">Laravel</div></div>
+    <div class="skill-chip"><div class="sk-name">MySQL / SQL</div></div>
+    <div class="skill-chip"><div class="sk-name">Bash</div></div>
+    <div class="skill-chip"><div class="sk-name">Git / GitHub</div></div>
+    <div class="skill-chip"><div class="sk-name">Linux</div></div>
+    <div class="skill-chip"><div class="sk-name">Cybersecurity</div></div>
   </div>
 </section>
 
@@ -300,7 +297,6 @@
 
     <div class="project-card">
       <div class="project-header">
-        <span class="project-icon">🌙</span>
         <div class="project-links">
           <a class="project-link" href="https://github.com/nassim-bakkas/ftouralamal" target="_blank">GitHub →</a>
         </div>
@@ -320,7 +316,6 @@
 
     <div class="project-card">
       <div class="project-header">
-        <span class="project-icon">🔐</span>
         <div class="project-links">
           <a class="project-link" href="https://github.com/nassim-bakkas/coffre-fort-numerique" target="_blank">GitHub →</a>
         </div>
@@ -339,7 +334,6 @@
 
     <div class="project-card">
       <div class="project-header">
-        <span class="project-icon">🚀</span>
         <div class="project-links">
           <a class="project-link" href="https://github.com/nassim-bakkas/space-game" target="_blank">GitHub →</a>
         </div>
@@ -367,17 +361,14 @@
   <p class="section-desc" data-en="I'm open to internships, collaborations, and interesting projects." data-fr="Je suis ouvert aux stages, collaborations et projets intéressants.">I'm open to internships, collaborations, and interesting projects.</p>
   <div class="contact-grid">
     <a class="contact-card" href="mailto:nassimbakkas996@gmail.com">
-      <div class="contact-icon">✉️</div>
       <div class="contact-label">Email</div>
       <div class="contact-value">nassimbakkas996@gmail.com</div>
     </a>
     <a class="contact-card" href="https://linkedin.com/in/nassim-bakkas" target="_blank">
-      <div class="contact-icon">💼</div>
       <div class="contact-label">LinkedIn</div>
       <div class="contact-value">nassim-bakkas</div>
     </a>
     <a class="contact-card" href="https://github.com/nassim-bakkas" target="_blank">
-      <div class="contact-icon">🐙</div>
       <div class="contact-label">GitHub</div>
       <div class="contact-value">nassim-bakkas</div>
     </a>
@@ -408,3 +399,4 @@
 </script>
 </body>
 </html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
